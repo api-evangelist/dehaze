@@ -1,8 +1,31 @@
 aid: dehaze
 name: dehaze
-description: dehaze is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  dehaze is a Munich-area (Fürstenfeldbruck, Germany) healthtech company, part of
+  the Techstars Berlin cohort, building proprietary causal AI infrastructure that
+  detects chronic and autoimmune disease earlier by identifying overlooked
+  diagnoses, health risks, and inappropriate treatments. Its platform unifies and
+  harmonizes diverse health data (lab results, medical imaging, genomics, clinical
+  notes) into doctor-validated patient journeys, risk-profiles individuals against
+  millions of health journeys and medical guidelines, and runs targeted AI
+  follow-ups to improve treatment adherence for patients, payers, and providers.
+  dehaze has analyzed over 250,000 patient lives across 300 million health events
+  and 200+ AI algorithms, and raised €3.2M in 2026. dehaze publishes no first-party
+  developer API; it exposes a Wix Site MCP endpoint and an llms.txt for agentic AI
+  access to public site content.
 url: https://raw.githubusercontent.com/api-evangelist/dehaze/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/2f3c0d_42767967d90a40f58e3c1dc8c413b9a4~mv2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthtech
+- Artificial Intelligence
+- Machine Learning
+- Digital Health
+- Chronic Disease
+- Diagnostics
+- Data Harmonization
+- Techstars
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: MCPServer
+  url: mcp/dehaze-mcp.yml
+- type: LLMsTxt
+  url: llms/dehaze-llms.txt
+- type: DomainSecurity
+  url: security/dehaze-domain-security.yml
+- type: About
+  url: https://www.dehaze.de/about
+- type: Careers
+  url: https://www.dehaze.de/careers
+- type: Press
+  url: https://www.dehaze.de/press
 - type: Website
   url: https://dehaze.de/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
