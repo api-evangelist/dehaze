@@ -50,7 +50,7 @@ tags:
 - Company
 - Health Tech
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Digital Health
 - Chronic Disease
 - Diagnostics
@@ -68,6 +68,7 @@ tags_raw:
 - Data Harmonization
 - Techstars
 - Germany
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
